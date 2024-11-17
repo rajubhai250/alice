@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID =25251663
+API_HASH = "8e7e485d18470e56d6d918a8d928da61"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7923114293:AAH1ZsI_tXAA6QMT-zzFi50ZjZhP9Nh2KG8"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Cluster0:Cluster0@cluster0.fybot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID =-4525975521
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID =7140355547
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_GROUP = "https://t.me/ott_store_discussion_group"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQAf70YAdKAmyRsIPH2exoA4LHynHZ-du8jz466MRmvLW7CnmprjeSgefm5YVC7WkFP_sGbobojCnutBwN14q_UwmCMcraHxdmQvM-Ecg86TEUvL7bg6WtQa48KXJ3QmBjWba4AWTYyMST1EYU_Un2Koq_SDxsHeBxZZRDiMWlItuGs0sXurfGBQh4kGWN-1hkRSBxs49Baq1ZCQBvBTZlz_Ap60ZpjD_weUBLiHrlOeX2NQIPXA32pICQSrdQnjOZfBrTmJPcC-2cdJW1oaMfqs0eWRB8n6Bqa8eEiC16QKVK8B6T1pDLog1YVKwH_Ctnc_tYGpT0OAr2oxYYC02eaiLci56gAAAAGpmS3bAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/46f33117899dd638d9b1a-a4233e90a10d0d7f55.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/46f33117899dd638d9b1a-a4233e90a10d0d7f55.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
